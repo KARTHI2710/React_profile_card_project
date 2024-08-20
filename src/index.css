@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.card-container{
+    background-color: #095486;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 350px;
+    position: relative;
+    text-align: center;
+    padding: 1rem 0.5rem;
+    color: white;
+    min-height: 470px;
+}
+span{
+    padding: 0.2rem 1rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+span.online{
+    background-color: rgba(0, 255, 85, 0.76);
+}
+span.offline{
+    background-color: rgba(252, 180, 48, 0.973);
+}
+.img-container{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+    padding: 7px;
+}
+h3{
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0.5rem 0;
+}
+.btnprimary{
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    color: white;
+    background-color: #119af5;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.btnoutline{
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    color: white;
+    background-color: #095486;
+    letter-spacing: 2px;
+    border: 1px solid #119af5;
+}
+.skills{
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 12px;
+    padding: 0.5rem 1rem;
+}
+.skills p{
+    text-transform: uppercase;
+}
+.skills ul{
+    list-style-type: none;
+}
+.skills ul li{
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    border: 1px solid white;
+    margin: 0.1rem;
+    border-radius: 3px;
+}
